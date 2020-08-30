@@ -13,16 +13,29 @@
 #verde {
   background-color: green;
 }
+.tudo {
+  font: 16px/1.4 sans-serif;  
+  max-width: 1200px;  
+  margin: 0 auto;
+  padding: 20px;
+  background: #e9f;
+}
+@media screen and (min-width: 500px) {
+  .tudo {
+    font-size: calc(16px + (8/1200) * 100 * 1vw);
+    background: #ffe;
+  } }
+
     </style>
 </head>
 <body>
 
-<div id="amarelo"><center><h1 style="font-size:2vw;">ROLE ATÉ O FINAL DA PÁGINA PARA VER O BOTÃO DE DOWNLOAD!</h1></center></div>
+<div class="tudo" id="amarelo"><center>ROLE ATÉ O FINAL DA PÁGINA PARA VER O BOTÃO DE DOWNLOAD!</center></div>
 
     <div class="main">
         <iframe src="https://www.portal10.info/?random"></iframe>
     </div>
-	<div id="verde"><center><h1 style="font-size:3vw;"><a href="https://enrt.eu/Ep8e" target="_blank"> BAIXAR AGORA!</a></h1></div>
+	<div class="tudo" id="verde"><center><a href="https://enrt.eu/Ep8e" target="_blank">BAIXE AGORA!</a></div>
 	<p>.</p><p>.</p><p>.</p><p>.</p><p>.</p></center>
 
 </body>
